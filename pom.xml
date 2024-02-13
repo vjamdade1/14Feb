@@ -195,9 +195,9 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.2.5</version>
 					<configuration>
-						<suiteXmlFiles>
-							<suiteXmlFile>resourcesF/Master.xml</suiteXmlFile>
-						</suiteXmlFiles>
+						<!-- Add custom attributes as needed -->
+								<addClasspath>true</addClasspath>
+								<mainClass>com.traval.qa.test.TestRunner</mainClass>
 					</configuration>
 				</plugin>
 
